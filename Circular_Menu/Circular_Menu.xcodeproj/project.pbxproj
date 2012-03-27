@@ -1,0 +1,242 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B80714E151FAA550028D5D7 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2B80714D151FAA550028D5D7 /* AppDelegate.mm */; };
+		2B807150151FAA550028D5D7 /* en.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B80714F151FAA550028D5D7 /* en.strings */; };
+		2B807152151FAA550028D5D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B807151151FAA550028D5D7 /* main.m */; };
+		2B807154151FAA550028D5D7 /* main.pch in Resources */ = {isa = PBXBuildFile; fileRef = 2B807153151FAA550028D5D7 /* main.pch */; };
+		2B807157151FAA550028D5D7 /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B807156151FAA550028D5D7 /* main.xib */; };
+		2B80715A151FAA550028D5D7 /* poOpenGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2B807159151FAA550028D5D7 /* poOpenGLView.mm */; };
+		2B80715E151FAA550028D5D7 /* Circular_MenuApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B80715D151FAA550028D5D7 /* Circular_MenuApp.cpp */; };
+		2B807160151FAA550028D5D7 /* AppConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B80715F151FAA550028D5D7 /* AppConfig.cpp */; };
+		2B807162151FAA550028D5D7 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B807161151FAA550028D5D7 /* OpenSans-Regular.ttf */; };
+		2B80716A151FAA7C0028D5D7 /* CircMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B807168151FAA7C0028D5D7 /* CircMenu.cpp */; };
+		2B807175151FAC0A0028D5D7 /* CircButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B807173151FAC0A0028D5D7 /* CircButton.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B807145151FAA550028D5D7 /* Circular_Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Circular_Menu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B80714A151FAA550028D5D7 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = ../platform/Debug.xcconfig; sourceTree = "<group>"; };
+		2B80714B151FAA550028D5D7 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = ../platform/Release.xcconfig; sourceTree = "<group>"; };
+		2B80714C151FAA550028D5D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../platform/AppDelegate.h; sourceTree = "<group>"; };
+		2B80714D151FAA550028D5D7 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = ../platform/AppDelegate.mm; sourceTree = "<group>"; };
+		2B80714F151FAA550028D5D7 /* en.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en.strings; path = ../platform/en.strings; sourceTree = "<group>"; };
+		2B807151151FAA550028D5D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../platform/main.m; sourceTree = "<group>"; };
+		2B807153151FAA550028D5D7 /* main.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = main.pch; path = ../platform/main.pch; sourceTree = "<group>"; };
+		2B807155151FAA550028D5D7 /* main.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = main.plist; path = ../platform/main.plist; sourceTree = "<group>"; };
+		2B807156151FAA550028D5D7 /* main.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = main.xib; path = ../platform/main.xib; sourceTree = "<group>"; };
+		2B807158151FAA550028D5D7 /* poOpenGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = poOpenGLView.h; path = ../platform/poOpenGLView.h; sourceTree = "<group>"; };
+		2B807159151FAA550028D5D7 /* poOpenGLView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = poOpenGLView.mm; path = ../platform/poOpenGLView.mm; sourceTree = "<group>"; };
+		2B80715C151FAA550028D5D7 /* Circular_MenuApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Circular_MenuApp.h; sourceTree = "<group>"; };
+		2B80715D151FAA550028D5D7 /* Circular_MenuApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Circular_MenuApp.cpp; sourceTree = "<group>"; };
+		2B80715F151FAA550028D5D7 /* AppConfig.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AppConfig.cpp; sourceTree = "<group>"; };
+		2B807161151FAA550028D5D7 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Regular.ttf"; path = "../platform/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		2B807168151FAA7C0028D5D7 /* CircMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CircMenu.cpp; sourceTree = "<group>"; };
+		2B807169151FAA7C0028D5D7 /* CircMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircMenu.h; sourceTree = "<group>"; };
+		2B807173151FAC0A0028D5D7 /* CircButton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CircButton.cpp; sourceTree = "<group>"; };
+		2B807174151FAC0A0028D5D7 /* CircButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircButton.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B807142151FAA550028D5D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B80713A151FAA540028D5D7 = {
+			isa = PBXGroup;
+			children = (
+				2B807148151FAA550028D5D7 /* Circular_Menu */,
+				2B807146151FAA550028D5D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B807146151FAA550028D5D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B807145151FAA550028D5D7 /* Circular_Menu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B807148151FAA550028D5D7 /* Circular_Menu */ = {
+			isa = PBXGroup;
+			children = (
+				2B807149151FAA550028D5D7 /* platform */,
+				2B80715B151FAA550028D5D7 /* application */,
+			);
+			path = Circular_Menu;
+			sourceTree = "<group>";
+		};
+		2B807149151FAA550028D5D7 /* platform */ = {
+			isa = PBXGroup;
+			children = (
+				2B80714A151FAA550028D5D7 /* Debug.xcconfig */,
+				2B80714B151FAA550028D5D7 /* Release.xcconfig */,
+				2B80714C151FAA550028D5D7 /* AppDelegate.h */,
+				2B80714D151FAA550028D5D7 /* AppDelegate.mm */,
+				2B80714F151FAA550028D5D7 /* en.strings */,
+				2B807151151FAA550028D5D7 /* main.m */,
+				2B807153151FAA550028D5D7 /* main.pch */,
+				2B807155151FAA550028D5D7 /* main.plist */,
+				2B807156151FAA550028D5D7 /* main.xib */,
+				2B807158151FAA550028D5D7 /* poOpenGLView.h */,
+				2B807159151FAA550028D5D7 /* poOpenGLView.mm */,
+				2B807161151FAA550028D5D7 /* OpenSans-Regular.ttf */,
+			);
+			name = platform;
+			sourceTree = "<group>";
+		};
+		2B80715B151FAA550028D5D7 /* application */ = {
+			isa = PBXGroup;
+			children = (
+				2B80715C151FAA550028D5D7 /* Circular_MenuApp.h */,
+				2B80715D151FAA550028D5D7 /* Circular_MenuApp.cpp */,
+				2B807168151FAA7C0028D5D7 /* CircMenu.cpp */,
+				2B807169151FAA7C0028D5D7 /* CircMenu.h */,
+				2B807173151FAC0A0028D5D7 /* CircButton.cpp */,
+				2B807174151FAC0A0028D5D7 /* CircButton.h */,
+				2B80715F151FAA550028D5D7 /* AppConfig.cpp */,
+			);
+			name = application;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B807144151FAA550028D5D7 /* Circular_Menu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B807165151FAA550028D5D7 /* Build configuration list for PBXNativeTarget "Circular_Menu" */;
+			buildPhases = (
+				2B807141151FAA550028D5D7 /* Sources */,
+				2B807142151FAA550028D5D7 /* Frameworks */,
+				2B807143151FAA550028D5D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Circular_Menu;
+			productName = Circular_Menu;
+			productReference = 2B807145151FAA550028D5D7 /* Circular_Menu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B80713C151FAA540028D5D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 2B80713F151FAA540028D5D7 /* Build configuration list for PBXProject "Circular_Menu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2B80713A151FAA540028D5D7;
+			productRefGroup = 2B807146151FAA550028D5D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B807144151FAA550028D5D7 /* Circular_Menu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B807143151FAA550028D5D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B807150151FAA550028D5D7 /* en.strings in Resources */,
+				2B807154151FAA550028D5D7 /* main.pch in Resources */,
+				2B807157151FAA550028D5D7 /* main.xib in Resources */,
+				2B807162151FAA550028D5D7 /* OpenSans-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B807141151FAA550028D5D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B80714E151FAA550028D5D7 /* AppDelegate.mm in Sources */,
+				2B807152151FAA550028D5D7 /* main.m in Sources */,
+				2B80715A151FAA550028D5D7 /* poOpenGLView.mm in Sources */,
+				2B80715E151FAA550028D5D7 /* Circular_MenuApp.cpp in Sources */,
+				2B807160151FAA550028D5D7 /* AppConfig.cpp in Sources */,
+				2B80716A151FAA7C0028D5D7 /* CircMenu.cpp in Sources */,
+				2B807175151FAC0A0028D5D7 /* CircButton.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2B807163151FAA550028D5D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B80714A151FAA550028D5D7 /* Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		2B807164151FAA550028D5D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B80714B151FAA550028D5D7 /* Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		2B807166151FAA550028D5D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		2B807167151FAA550028D5D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B80713F151FAA540028D5D7 /* Build configuration list for PBXProject "Circular_Menu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B807163151FAA550028D5D7 /* Debug */,
+				2B807164151FAA550028D5D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B807165151FAA550028D5D7 /* Build configuration list for PBXNativeTarget "Circular_Menu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B807166151FAA550028D5D7 /* Debug */,
+				2B807167151FAA550028D5D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B80713C151FAA540028D5D7 /* Project object */;
+}

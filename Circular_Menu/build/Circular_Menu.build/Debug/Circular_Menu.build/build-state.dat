@@ -1,0 +1,391 @@
+TCircular_Menu
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Potion/projects/_tests/Circular_Menu/build/Debug/Circular_Menu.app/Contents/Info.plist platform/main.plist
+cProcessPCH++ /var/folders/6x/td7rqd951hz6jdj48bcjxn0w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-goojxpjvxphjmqdbczzqtavplmbe/main.pch.pth platform/main.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/6x/td7rqd951hz6jdj48bcjxn0w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-eocjltkdoazzuccpguyayxpctplg/main.pch.pth platform/main.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /var/folders/6x/td7rqd951hz6jdj48bcjxn0w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-auwzwlqqbjhfbremabhjidyqioxt/main.pch.pth platform/main.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/main.o /Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/AppDelegate.o /Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/AppDelegate.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/poOpenGLView.o /Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/poOpenGLView.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/Circular_MenuApp.o /Potion/projects/_tests/Circular_Menu/Circular_Menu/Circular_MenuApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/AppConfig.o /Potion/projects/_tests/Circular_Menu/Circular_Menu/AppConfig.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/CircMenu.o /Potion/projects/_tests/Circular_Menu/Circular_Menu/CircMenu.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/CircButton.o /Potion/projects/_tests/Circular_Menu/Circular_Menu/CircButton.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Potion/projects/_tests/Circular_Menu/build/Debug/Circular_Menu.app/Contents/MacOS/Circular_Menu normal i386
+cCopyStringsFile /Potion/projects/_tests/Circular_Menu/build/Debug/Circular_Menu.app/Contents/Resources/en.strings Circular_Menu/../platform/en.strings
+cCpResource platform/main.pch build/Debug/Circular_Menu.app/Contents/Resources/main.pch
+cCompileXIB /Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/main.xib
+cCpResource Circular_Menu/../platform/OpenSans-Regular.ttf build/Debug/Circular_Menu.app/Contents/Resources/OpenSans-Regular.ttf
+cTouch /Potion/projects/_tests/Circular_Menu/build/Debug/Circular_Menu.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
+c000000004F700E4700000000000000EE
+t1332743751
+s238
+
+N/Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/AppDelegate.mm
+c000000004F6F72D50000000000001E8B
+t1332703957
+s7819
+
+N/Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/OpenSans-Regular.ttf
+c000000004F6386290000000000035110
+t1331922473
+s217360
+
+N/Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/en.strings
+c000000004F6F72D5000000000000002D
+t1332703957
+s45
+
+N/Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/main.m
+c000000004F6F72D50000000000000077
+t1332703957
+s119
+
+N/Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/main.xib
+c000000004F6F72D50000000000006176
+t1332703957
+s24950
+
+N/Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/poOpenGLView.mm
+c000000004F6F72D500000000000012DB
+t1332703957
+s4827
+
+N/Potion/projects/_tests/Circular_Menu/Circular_Menu/AppConfig.cpp
+c000000004F70158C00000000000001B6
+t1332745612
+s438
+
+N/Potion/projects/_tests/Circular_Menu/Circular_Menu/CircButton.cpp
+c000000004F70E9130000000000000530
+t1332799763
+s1328
+
+N/Potion/projects/_tests/Circular_Menu/Circular_Menu/CircMenu.cpp
+c000000004F70FFC10000000000000E47
+t1332805569
+s3655
+
+N/Potion/projects/_tests/Circular_Menu/Circular_Menu/Circular_MenuApp.cpp
+c000000004F70FDDF000000000000046F
+t1332805087
+s1135
+
+N/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/AppConfig.o
+t2
+s0
+
+N/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/CircButton.o
+t2
+s0
+
+N/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/CircMenu.o
+t2
+s0
+
+N/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/Circular_Menu.LinkFileList
+c000000004F70FFC8000000000000035D
+t1332805576
+s861
+
+N/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/Circular_MenuApp.o
+t2
+s0
+
+N/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/poOpenGLView.o
+t2
+s0
+
+N/Potion/projects/_tests/Circular_Menu/build/Debug/Circular_Menu.app
+t2
+s0
+
+N/Potion/projects/_tests/Circular_Menu/build/Debug/Circular_Menu.app/Contents/Info.plist
+t2
+s0
+
+N/Potion/projects/_tests/Circular_Menu/build/Debug/Circular_Menu.app/Contents/MacOS/Circular_Menu
+t2
+s0
+
+N/Potion/projects/_tests/Circular_Menu/build/Debug/Circular_Menu.app/Contents/PkgInfo
+t2
+s0
+
+N/Potion/projects/_tests/Circular_Menu/build/Debug/Circular_Menu.app/Contents/Resources/OpenSans-Regular.ttf
+t2
+s0
+
+N/Potion/projects/_tests/Circular_Menu/build/Debug/Circular_Menu.app/Contents/Resources/en.strings
+t2
+s0
+
+N/Potion/projects/_tests/Circular_Menu/build/Debug/Circular_Menu.app/Contents/Resources/main.nib
+t2
+s0
+
+N/Potion/projects/_tests/Circular_Menu/build/Debug/Circular_Menu.app/Contents/Resources/main.pch
+t2
+s0
+
+N/Potion/projects/_tests/Circular_Menu/platform/main.pch
+c000000004F6F72D50000000000000000
+t1332703957
+s0
+
+N/var/folders/6x/td7rqd951hz6jdj48bcjxn0w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-auwzwlqqbjhfbremabhjidyqioxt/main.pch.pth
+t2
+s0
+
+N/var/folders/6x/td7rqd951hz6jdj48bcjxn0w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-eocjltkdoazzuccpguyayxpctplg/main.pch.pth
+t2
+s0
+
+N/var/folders/6x/td7rqd951hz6jdj48bcjxn0w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-goojxpjvxphjmqdbczzqtavplmbe/main.pch.pth
+t2
+s0
+
+Nplatform/main.plist
+c000000004F6F72D500000000000003E2
+t1332703957
+s994
+
+CBuild AST from /Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/AppDelegate.mm
+r0
+
+CBuild AST from /Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/main.m
+r0
+
+CBuild AST from /Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/poOpenGLView.mm
+r0
+
+CBuild AST from /Potion/projects/_tests/Circular_Menu/Circular_Menu/AppConfig.cpp
+r0
+
+CBuild AST from /Potion/projects/_tests/Circular_Menu/Circular_Menu/CircButton.cpp
+r0
+
+CBuild AST from /Potion/projects/_tests/Circular_Menu/Circular_Menu/CircMenu.cpp
+r0
+
+CBuild AST from /Potion/projects/_tests/Circular_Menu/Circular_Menu/Circular_MenuApp.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies8271b0483721b541^5914ca483721b541^---0#1#0#--18"Check dependencies36"0D5F9255-7B1E-4C6B-8B0A-EBAEC3DD3444-
+
+CCompileC build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/AppConfig.o /Potion/projects/_tests/Circular_Menu/Circular_Menu/AppConfig.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s354498393.131412
+e354498404.409534
+r1
+xCompileC
+xbuild/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/AppConfig.o
+x/Potion/projects/_tests/Circular_Menu/Circular_Menu/AppConfig.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Potion/projects/_tests/Circular_Menu/Circular_Menu/AppConfig.cppdbc021593721b541^28d768643721b541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Potion/projects/_tests/Circular_Menu/Circular_Menu/AppConfig.cpp0000000000000000^2997"CompileC build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/AppConfig.o Circular_Menu/AppConfig.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Potion/projects/_tests/Circular_Menu    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wno-switch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-conversion -Wno-sign-conversion -iquote /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-generated-files.hmap -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-own-target-headers.hmap -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-all-target-headers.hmap -iquote /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-project-headers.hmap -iquote/pocode/libraries/pocode -I/Potion/projects/_tests/Circular_Menu/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/DerivedSources/i386 -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/DerivedSources -F/Potion/projects/_tests/Circular_Menu/build/Debug -include /var/folders/6x/td7rqd951hz6jdj48bcjxn0w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-auwzwlqqbjhfbremabhjidyqioxt/main.pch -MMD -MT dependencies -MF /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/AppConfig.d --serialize-diagnostics /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/AppConfig.dia -c /Potion/projects/_tests/Circular_Menu/Circular_Menu/AppConfig.cpp -o /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/AppConfig.o36"FD5C036B-614C-4F9F-AF6C-FD268801D706-
+
+CCompileC build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/AppDelegate.o /Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/AppDelegate.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s354498376.929208
+e354498391.323201
+r1
+xCompileC
+xbuild/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/AppDelegate.o
+x/Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/AppDelegate.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/AppDelegate.mm9f00ee483721b541^0abd52573721b541^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/AppDelegate.mm0000000000000000^3368"CompileC build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/AppDelegate.o Circular_Menu/../platform/AppDelegate.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Potion/projects/_tests/Circular_Menu    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wno-switch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-generated-files.hmap -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-own-target-headers.hmap -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-all-target-headers.hmap -iquote /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-project-headers.hmap -iquote/pocode/libraries/pocode -I/Potion/projects/_tests/Circular_Menu/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/DerivedSources/i386 -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/DerivedSources -F/Potion/projects/_tests/Circular_Menu/build/Debug -include /var/folders/6x/td7rqd951hz6jdj48bcjxn0w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-goojxpjvxphjmqdbczzqtavplmbe/main.pch -MMD -MT dependencies -MF /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/AppDelegate.dia -c /Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/AppDelegate.mm -o /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/AppDelegate.o36"6D067F89-B1FE-4703-A9EC-C6EABD40979F-
+
+CCompileC build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/CircButton.o /Potion/projects/_tests/Circular_Menu/Circular_Menu/CircButton.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s354498404.410782
+e354498412.079632
+r1
+xCompileC
+xbuild/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/CircButton.o
+x/Potion/projects/_tests/Circular_Menu/Circular_Menu/CircButton.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Potion/projects/_tests/Circular_Menu/Circular_Menu/CircButton.cpp354469643721b541^b262146c3721b541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Potion/projects/_tests/Circular_Menu/Circular_Menu/CircButton.cpp0000000000000000^3003"CompileC build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/CircButton.o Circular_Menu/CircButton.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Potion/projects/_tests/Circular_Menu    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wno-switch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-conversion -Wno-sign-conversion -iquote /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-generated-files.hmap -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-own-target-headers.hmap -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-all-target-headers.hmap -iquote /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-project-headers.hmap -iquote/pocode/libraries/pocode -I/Potion/projects/_tests/Circular_Menu/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/DerivedSources/i386 -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/DerivedSources -F/Potion/projects/_tests/Circular_Menu/build/Debug -include /var/folders/6x/td7rqd951hz6jdj48bcjxn0w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-auwzwlqqbjhfbremabhjidyqioxt/main.pch -MMD -MT dependencies -MF /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/CircButton.d --serialize-diagnostics /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/CircButton.dia -c /Potion/projects/_tests/Circular_Menu/Circular_Menu/CircButton.cpp -o /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/CircButton.o36"723F3CE3-81C7-4C2E-A051-5C7FAFA2047D-
+
+CCompileC build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/CircMenu.o /Potion/projects/_tests/Circular_Menu/Circular_Menu/CircMenu.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s354498403.058861
+e354498411.305130
+r1
+xCompileC
+xbuild/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/CircMenu.o
+x/Potion/projects/_tests/Circular_Menu/Circular_Menu/CircMenu.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Potion/projects/_tests/Circular_Menu/Circular_Menu/CircMenu.cppe92c0f633721b541^23bb4e6b3721b541^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Potion/projects/_tests/Circular_Menu/Circular_Menu/CircMenu.cpp0000000000000000^2991"CompileC build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/CircMenu.o Circular_Menu/CircMenu.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Potion/projects/_tests/Circular_Menu    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wno-switch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-conversion -Wno-sign-conversion -iquote /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-generated-files.hmap -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-own-target-headers.hmap -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-all-target-headers.hmap -iquote /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-project-headers.hmap -iquote/pocode/libraries/pocode -I/Potion/projects/_tests/Circular_Menu/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/DerivedSources/i386 -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/DerivedSources -F/Potion/projects/_tests/Circular_Menu/build/Debug -include /var/folders/6x/td7rqd951hz6jdj48bcjxn0w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-auwzwlqqbjhfbremabhjidyqioxt/main.pch -MMD -MT dependencies -MF /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/CircMenu.d --serialize-diagnostics /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/CircMenu.dia -c /Potion/projects/_tests/Circular_Menu/Circular_Menu/CircMenu.cpp -o /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/CircMenu.o36"BEF946D6-23BA-4434-9AF4-0328E5471E89-
+
+CCompileC build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/Circular_MenuApp.o /Potion/projects/_tests/Circular_Menu/Circular_Menu/Circular_MenuApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s354498391.324477
+e354498403.057584
+r1
+xCompileC
+xbuild/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/Circular_MenuApp.o
+x/Potion/projects/_tests/Circular_Menu/Circular_Menu/Circular_MenuApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Potion/projects/_tests/Circular_Menu/Circular_Menu/Circular_MenuApp.cppe92c53573721b541^a1bd0e633721b541^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Potion/projects/_tests/Circular_Menu/Circular_Menu/Circular_MenuApp.cpp0000000000000000^3039"CompileC build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/Circular_MenuApp.o Circular_Menu/Circular_MenuApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Potion/projects/_tests/Circular_Menu    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wno-switch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-conversion -Wno-sign-conversion -iquote /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-generated-files.hmap -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-own-target-headers.hmap -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-all-target-headers.hmap -iquote /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-project-headers.hmap -iquote/pocode/libraries/pocode -I/Potion/projects/_tests/Circular_Menu/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/DerivedSources/i386 -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/DerivedSources -F/Potion/projects/_tests/Circular_Menu/build/Debug -include /var/folders/6x/td7rqd951hz6jdj48bcjxn0w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-auwzwlqqbjhfbremabhjidyqioxt/main.pch -MMD -MT dependencies -MF /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/Circular_MenuApp.d --serialize-diagnostics /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/Circular_MenuApp.dia -c /Potion/projects/_tests/Circular_Menu/Circular_Menu/Circular_MenuApp.cpp -o /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/Circular_MenuApp.o36"B4888CEE-EC4B-4B5C-A999-6B469A7A10E9-
+
+CCompileC build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/main.o /Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s354498376.905086
+e354498379.487777
+r1
+xCompileC
+xbuild/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/main.o
+x/Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/main.me9d6e7483721b541^f4de7c4b3721b541^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/main.m0000000000000000^3183"CompileC build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/main.o Circular_Menu/../platform/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Potion/projects/_tests/Circular_Menu    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wno-switch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -DTIXML_USE_STL -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-generated-files.hmap -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-own-target-headers.hmap -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-all-target-headers.hmap -iquote /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-project-headers.hmap -iquote/pocode/libraries/pocode -I/Potion/projects/_tests/Circular_Menu/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/DerivedSources/i386 -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/DerivedSources -F/Potion/projects/_tests/Circular_Menu/build/Debug -include /var/folders/6x/td7rqd951hz6jdj48bcjxn0w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-eocjltkdoazzuccpguyayxpctplg/main.pch -MMD -MT dependencies -MF /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/main.d --serialize-diagnostics /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/main.dia -c /Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/main.m -o /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/main.o36"0DC5A033-271C-42D3-93D8-1818798F6C16-
+
+CCompileC build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/poOpenGLView.o /Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/poOpenGLView.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s354498379.489056
+e354498393.130153
+r1
+xCompileC
+xbuild/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/poOpenGLView.o
+x/Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/poOpenGLView.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/poOpenGLView.mm1a527d4b3721b541^d75121593721b541^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/poOpenGLView.mm0000000000000000^3374"CompileC build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/poOpenGLView.o Circular_Menu/../platform/poOpenGLView.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Potion/projects/_tests/Circular_Menu    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wno-switch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-generated-files.hmap -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-own-target-headers.hmap -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-all-target-headers.hmap -iquote /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-project-headers.hmap -iquote/pocode/libraries/pocode -I/Potion/projects/_tests/Circular_Menu/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/DerivedSources/i386 -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/DerivedSources -F/Potion/projects/_tests/Circular_Menu/build/Debug -include /var/folders/6x/td7rqd951hz6jdj48bcjxn0w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-goojxpjvxphjmqdbczzqtavplmbe/main.pch -MMD -MT dependencies -MF /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/poOpenGLView.d --serialize-diagnostics /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/poOpenGLView.dia -c /Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/poOpenGLView.mm -o /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/poOpenGLView.o36"A71D9E19-C511-4F5B-B7DF-F40BCF05C3E8-
+
+CCompileXIB /Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/main.xib
+s354498413.161813
+e354498414.375126
+r1
+xCompileXIB
+x/Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/main.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compiling /Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/main.xibe57c296d3721b541^9608606e3721b541^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/main.xib0000000000000000^593"CompileXIB Circular_Menu/../platform/main.xib    cd /Potion/projects/_tests/Circular_Menu    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Potion/projects/_tests/Circular_Menu/build/Debug/Circular_Menu.app/Contents/Resources/main.nib /Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/main.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk36"178E3897-2A74-4693-8C4D-33B44A758D33-
+
+CCopyStringsFile /Potion/projects/_tests/Circular_Menu/build/Debug/Circular_Menu.app/Contents/Resources/en.strings Circular_Menu/../platform/en.strings
+s354498413.156839
+e354498413.162981
+r1
+xCopyStringsFile
+x/Potion/projects/_tests/Circular_Menu/build/Debug/Circular_Menu.app/Contents/Resources/en.strings
+xCircular_Menu/../platform/en.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Circular_Menu/../platform/en.strings9736286d3721b541^ee272b6d3721b541^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/en.strings0000000000000000^375"CopyStringsFile build/Debug/Circular_Menu.app/Contents/Resources/en.strings Circular_Menu/../platform/en.strings    cd /Potion/projects/_tests/Circular_Menu    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Potion/projects/_tests/Circular_Menu/build/Debug/Circular_Menu.app/Contents/Resources -- Circular_Menu/../platform/en.strings36"D981A852-D06C-4100-B2A6-2C6AC2B56F53-
+
+CCpResource Circular_Menu/../platform/OpenSans-Regular.ttf build/Debug/Circular_Menu.app/Contents/Resources/OpenSans-Regular.ttf
+s354498413.164863
+e354498413.167998
+r1
+xCpResource
+xCircular_Menu/../platform/OpenSans-Regular.ttf
+xbuild/Debug/Circular_Menu.app/Contents/Resources/OpenSans-Regular.ttf
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy build/Debug/Circular_Menu.app/Contents/Resources/OpenSans-Regular.ttf29422a6d3721b541^342f2b6d3721b541^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Potion/projects/_tests/Circular_Menu/build/Debug/Circular_Menu.app/Contents/Resources/OpenSans-Regular.ttf000000000080d041^562"CpResource Circular_Menu/../platform/OpenSans-Regular.ttf build/Debug/Circular_Menu.app/Contents/Resources/OpenSans-Regular.ttf    cd /Potion/projects/_tests/Circular_Menu    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/OpenSans-Regular.ttf /Potion/projects/_tests/Circular_Menu/build/Debug/Circular_Menu.app/Contents/Resources36"89D39808-8043-43D1-8840-C2096E934122-
+
+CCpResource platform/main.pch build/Debug/Circular_Menu.app/Contents/Resources/main.pch
+s354498413.157478
+e354498413.160636
+r1
+xCpResource
+xplatform/main.pch
+xbuild/Debug/Circular_Menu.app/Contents/Resources/main.pch
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug/Circular_Menu.app/Contents/Resources/main.pchd15b286d3721b541^e678296d3721b541^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Potion/projects/_tests/Circular_Menu/build/Debug/Circular_Menu.app/Contents/Resources/main.pch000000000080d041^492"CpResource platform/main.pch build/Debug/Circular_Menu.app/Contents/Resources/main.pch    cd /Potion/projects/_tests/Circular_Menu    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Potion/projects/_tests/Circular_Menu/platform/main.pch /Potion/projects/_tests/Circular_Menu/build/Debug/Circular_Menu.app/Contents/Resources36"2DBEF51A-9B46-470A-A55D-C4932DFE279A-
+
+CLd /Potion/projects/_tests/Circular_Menu/build/Debug/Circular_Menu.app/Contents/MacOS/Circular_Menu normal i386
+s354498412.086624
+e354498413.148692
+r1
+xLd
+x/Potion/projects/_tests/Circular_Menu/build/Debug/Circular_Menu.app/Contents/MacOS/Circular_Menu
+xnormal
+xi386
+old: warning: direct access in __ZN5boost6system12system_errorD2Ev to global weak symbol __ZTVN5boost6system12system_errorE means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Link /Potion/projects/_tests/Circular_Menu/build/Debug/Circular_Menu.app/Contents/MacOS/Circular_Menu033f166c3721b541^601e266d3721b541^-283"ld: warning: direct access in __ZN5boost6system12system_errorD2Ev to global weak symbol __ZTVN5boost6system12system_errorE means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.1(21%IDEActivityLogMessage2@269"Direct access in __ZN5boost6system12system_errorD2Ev to global weak symbol __ZTVN5boost6system12system_errorE means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-354498412#0#283#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--926"Ld build/Debug/Circular_Menu.app/Contents/MacOS/Circular_Menu normal i386    cd /Potion/projects/_tests/Circular_Menu    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Potion/projects/_tests/Circular_Menu/build/Debug -L/pocode/libraries/pocode -F/Potion/projects/_tests/Circular_Menu/build/Debug -filelist /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Objects-normal/i386/Circular_Menu.LinkFileList -mmacosx-version-min=10.6 -lpocode_d /usr/lib/libsqlite3.0.dylib -framework Cocoa -framework ApplicationServices -framework OpenGL -framework CoreVideo -framework QTKit -o /Potion/projects/_tests/Circular_Menu/build/Debug/Circular_Menu.app/Contents/MacOS/Circular_Menu36"9F6AE468-F222-4F37-BC55-2903A5DE1D59-
+
+CProcessInfoPlistFile /Potion/projects/_tests/Circular_Menu/build/Debug/Circular_Menu.app/Contents/Info.plist platform/main.plist
+s354498376.795847
+e354498376.808879
+r1
+xProcessInfoPlistFile
+x/Potion/projects/_tests/Circular_Menu/build/Debug/Circular_Menu.app/Contents/Info.plist
+xplatform/main.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection27"Process platform/main.plistfbcacb483721b541^ce17cf483721b541^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Potion/projects/_tests/Circular_Menu/platform/main.plist0000000000000000^411"ProcessInfoPlistFile build/Debug/Circular_Menu.app/Contents/Info.plist platform/main.plist    cd /Potion/projects/_tests/Circular_Menu    builtin-infoPlistUtility platform/main.plist -genpkginfo /Potion/projects/_tests/Circular_Menu/build/Debug/Circular_Menu.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Potion/projects/_tests/Circular_Menu/build/Debug/Circular_Menu.app/Contents/Info.plist36"FA630CA4-E025-418C-A81C-9A224F33AAAF-
+
+CProcessPCH /Users/jonathanbobrow/Library/Developer/Xcode/DerivedData/Circular_Menu-cyytebytxepqokdkjlbaixaeumgs/Index/PrecompiledHeaders/main-gltqxtlpwhayojdbyhbrgsltosxp_ast/main.pch.pth platform/main.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/6x/td7rqd951hz6jdj48bcjxn0w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-eocjltkdoazzuccpguyayxpctplg/main.pch.pth platform/main.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s354498376.818324
+e354498376.871197
+r1
+xProcessPCH
+x/var/folders/6x/td7rqd951hz6jdj48bcjxn0w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-eocjltkdoazzuccpguyayxpctplg/main.pch.pth
+xplatform/main.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile platform/main.pch4699d1483721b541^2907df483721b541^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Potion/projects/_tests/Circular_Menu/platform/main.pch0000000000000000^3146"ProcessPCH /var/folders/6x/td7rqd951hz6jdj48bcjxn0w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-eocjltkdoazzuccpguyayxpctplg/main.pch.pth platform/main.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Potion/projects/_tests/Circular_Menu    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wno-switch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -DTIXML_USE_STL -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-generated-files.hmap -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-own-target-headers.hmap -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-all-target-headers.hmap -iquote /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-project-headers.hmap -iquote/pocode/libraries/pocode -I/Potion/projects/_tests/Circular_Menu/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/DerivedSources/i386 -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/DerivedSources -F/Potion/projects/_tests/Circular_Menu/build/Debug --serialize-diagnostics /var/folders/6x/td7rqd951hz6jdj48bcjxn0w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-eocjltkdoazzuccpguyayxpctplg/main.pch.dia -c /Potion/projects/_tests/Circular_Menu/platform/main.pch -o /var/folders/6x/td7rqd951hz6jdj48bcjxn0w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-eocjltkdoazzuccpguyayxpctplg/main.pch.pth -MMD -MT dependencies -MF /var/folders/6x/td7rqd951hz6jdj48bcjxn0w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-eocjltkdoazzuccpguyayxpctplg/main.pch.d36"B19F50A1-7EE1-4206-AF32-9A0957EC8EFD-
+
+CProcessPCH++ /Users/jonathanbobrow/Library/Developer/Xcode/DerivedData/Circular_Menu-cyytebytxepqokdkjlbaixaeumgs/Index/PrecompiledHeaders/main-anlwwrhyxqvxlahksfuwhxsrbnmg_ast/main.pch.pth platform/main.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /Users/jonathanbobrow/Library/Developer/Xcode/DerivedData/Circular_Menu-cyytebytxepqokdkjlbaixaeumgs/Index/PrecompiledHeaders/main-hepplwjiliiguraxchquktgfknde_ast/main.pch.pth platform/main.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/6x/td7rqd951hz6jdj48bcjxn0w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-auwzwlqqbjhfbremabhjidyqioxt/main.pch.pth platform/main.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s354498376.872452
+e354498376.927302
+r1
+xProcessPCH++
+x/var/folders/6x/td7rqd951hz6jdj48bcjxn0w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-auwzwlqqbjhfbremabhjidyqioxt/main.pch.pth
+xplatform/main.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile platform/main.pchc077df483721b541^07eded483721b541^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Potion/projects/_tests/Circular_Menu/platform/main.pch0000000000000000^2952"ProcessPCH++ /var/folders/6x/td7rqd951hz6jdj48bcjxn0w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-auwzwlqqbjhfbremabhjidyqioxt/main.pch.pth platform/main.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Potion/projects/_tests/Circular_Menu    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wno-switch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-conversion -Wno-sign-conversion -iquote /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-generated-files.hmap -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-own-target-headers.hmap -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-all-target-headers.hmap -iquote /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-project-headers.hmap -iquote/pocode/libraries/pocode -I/Potion/projects/_tests/Circular_Menu/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/DerivedSources/i386 -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/DerivedSources -F/Potion/projects/_tests/Circular_Menu/build/Debug --serialize-diagnostics /var/folders/6x/td7rqd951hz6jdj48bcjxn0w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-auwzwlqqbjhfbremabhjidyqioxt/main.pch.dia -c /Potion/projects/_tests/Circular_Menu/platform/main.pch -o /var/folders/6x/td7rqd951hz6jdj48bcjxn0w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-auwzwlqqbjhfbremabhjidyqioxt/main.pch.pth -MMD -MT dependencies -MF /var/folders/6x/td7rqd951hz6jdj48bcjxn0w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-auwzwlqqbjhfbremabhjidyqioxt/main.pch.d36"57A96AA5-C801-424A-8D12-D652C9026C1A-
+
+CProcessPCH++ /var/folders/6x/td7rqd951hz6jdj48bcjxn0w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-goojxpjvxphjmqdbczzqtavplmbe/main.pch.pth platform/main.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s354498376.817392
+e354498376.893882
+r1
+xProcessPCH++
+x/var/folders/6x/td7rqd951hz6jdj48bcjxn0w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-goojxpjvxphjmqdbczzqtavplmbe/main.pch.pth
+xplatform/main.pch
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile platform/main.pch3962d1483721b541^8a05e6483721b541^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Potion/projects/_tests/Circular_Menu/platform/main.pch0000000000000000^3289"ProcessPCH++ /var/folders/6x/td7rqd951hz6jdj48bcjxn0w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-goojxpjvxphjmqdbczzqtavplmbe/main.pch.pth platform/main.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Potion/projects/_tests/Circular_Menu    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++-header -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wno-switch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-generated-files.hmap -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-own-target-headers.hmap -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-all-target-headers.hmap -iquote /Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/Circular_Menu-project-headers.hmap -iquote/pocode/libraries/pocode -I/Potion/projects/_tests/Circular_Menu/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/DerivedSources/i386 -I/Potion/projects/_tests/Circular_Menu/build/Circular_Menu.build/Debug/Circular_Menu.build/DerivedSources -F/Potion/projects/_tests/Circular_Menu/build/Debug --serialize-diagnostics /var/folders/6x/td7rqd951hz6jdj48bcjxn0w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-goojxpjvxphjmqdbczzqtavplmbe/main.pch.dia -c /Potion/projects/_tests/Circular_Menu/platform/main.pch -o /var/folders/6x/td7rqd951hz6jdj48bcjxn0w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-goojxpjvxphjmqdbczzqtavplmbe/main.pch.pth -MMD -MT dependencies -MF /var/folders/6x/td7rqd951hz6jdj48bcjxn0w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-goojxpjvxphjmqdbczzqtavplmbe/main.pch.d36"28B63BFE-16A4-4381-BC2E-5A214C5BCA02-
+
+CTouch /Potion/projects/_tests/Circular_Menu/build/Debug/Circular_Menu.app
+s354498414.383773
+e354498414.392257
+r1
+xTouch
+x/Potion/projects/_tests/Circular_Menu/build/Debug/Circular_Menu.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Touch /Potion/projects/_tests/Circular_Menu/build/Debug/Circular_Menu.appe84c626e3721b541^c26a646e3721b541^---0#0#0#--171"Touch build/Debug/Circular_Menu.app    cd /Potion/projects/_tests/Circular_Menu    /usr/bin/touch -c /Potion/projects/_tests/Circular_Menu/build/Debug/Circular_Menu.app36"A119B0F2-E97D-4A3C-8C67-830480DBB0C0-
+
