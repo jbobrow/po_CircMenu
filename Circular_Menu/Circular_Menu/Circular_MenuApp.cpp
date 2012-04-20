@@ -14,11 +14,11 @@ Circular_MenuApp::Circular_MenuApp() {
 	poRectShape	*bg = new poRectShape("ghostly.jpg");
 	addChild(bg);
 	
-	menu = new CircMenu();
+	menu = new CircMenu(5);
+	menu->setBaseTexture(poGetTexture("buttons/Path_Icon_base.png"));
+	menu->setIconTexture(poGetTexture("buttons/Path_Icon_icon.png"));
+	menu->setHighlightTexture(poGetTexture("buttons/Path_Icon_highlight.png"));
 	menu->position.set(80,getWindowHeight()-80,0);
-	for(int i=0; i<5; i++){
-		menu->addButton();
-	}
 	menu->setRange(CIRC_MENU_QUART_TOP_RIGHT);
 	addChild(menu);
 }

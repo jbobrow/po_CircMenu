@@ -1,7 +1,7 @@
 dependencies: \
-  /Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/poOpenGLView.mm \
-  /Potion/projects/_tests/Circular_Menu/platform/poOpenGLView.h \
-  /Potion/projects/_tests/Circular_Menu/platform/AppDelegate.h \
+  /Potion/pocodeFun/po_CircMenu/Circular_Menu/Circular_Menu/../platform/poOpenGLView.mm \
+  /Potion/pocodeFun/po_CircMenu/Circular_Menu/platform/poOpenGLView.h \
+  /Potion/pocodeFun/po_CircMenu/Circular_Menu/platform/AppDelegate.h \
   /pocode/libraries/pocode/include/poApplication.h \
   /pocode/libraries/pocode/include/poWindow.h \
   /pocode/libraries/pocode/include/common.h \

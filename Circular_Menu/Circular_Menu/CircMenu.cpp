@@ -2,7 +2,8 @@
 
 const double PI = 3.141592;
 
-CircMenu::CircMenu()
+CircMenu::CircMenu(int numButtons, int size)
+:CircButton(size)
 {
 	amp			= 250.f;
 	
@@ -15,18 +16,10 @@ CircMenu::CircMenu()
 	closeDelay		= .1f;
 	
 	isOpen		= false;
-	isPressed	= false;
 	
-	menuButton = new CircButton();
-	menuButton->setBaseTexture(poGetTexture("buttons/Path_Icon_base.png"));
-	menuButton->setIconTexture(poGetTexture("buttons/Path_Icon_icon.png"));
-	menuButton->setHighlightTexture(poGetTexture("buttons/Path_Icon_highlight.png"));
-	addChild(menuButton);
-	
-	addEvent(PO_MOUSE_DOWN_INSIDE_EVENT,this);
-	addEvent(PO_MOUSE_MOVE_EVENT,this);
-	addEvent(PO_MOUSE_UP_EVENT, this);
-
+	for(int i=0; i<numButtons; i++){
+		addButton();
+	}
 }
 
 CircMenu::~CircMenu() 
@@ -37,6 +30,13 @@ void CircMenu::update()
 {
 }
 
+void CircMenu::pressEvent()
+{
+	printf("derived \n");
+	isOpen ? close() : open();
+	isOpen = !isOpen;
+}
+
 void CircMenu::addButton()
 {
 	CircButton *button = new CircButton(100);
@@ -44,6 +44,7 @@ void CircMenu::addButton()
 	button->setIconTexture(poGetTexture("buttons/Path_Icon_sm_icon.png"));
 	button->setHighlightTexture(poGetTexture("buttons/Path_Icon_sm_highlight.png"));
 	buttons.push_back(button);
+	buttons.back()->visible = false;
 	addChild(buttons.back());
 	moveChildToBack(buttons.back());
 }
@@ -75,6 +76,8 @@ void CircMenu::open()
 	{
 		for(int i=0; i<buttons.size(); i++){
 			
+			buttons[i]->visible = true;
+			
 			float theta = i * PI/180.f * (rangeEnd-rangeBegin)/(float)(buttons.size()-1);
 			
 			poPoint loc = poPoint(amp * cos(rangeBegin * PI/180.f + theta), amp * sin(rangeBegin * PI/180.f + theta), 0);
@@ -96,7 +99,7 @@ void CircMenu::open()
 		}
 	}
 	
-	menuButton->icon->rotationTween
+	CircButton::icon->rotationTween
 		.set(45)
 		.setDelay(0)
 		.setDuration(openDuration)
@@ -117,6 +120,7 @@ void CircMenu::close()
 				.setDelay(closeDelay*i)
 				.setDuration(closeDuration)
 				.setTweenFunction(PO_TWEEN_BACK_IN_FUNC)
+				.setNotification(this, poToString(i))
 				.start();
 			
 			buttons[i]->icon->rotationTween
@@ -128,7 +132,7 @@ void CircMenu::close()
 		}
 	}
 	
-	menuButton->icon->rotationTween
+	CircButton::icon->rotationTween
 		.set(0)
 		.setDelay(0)
 		.setDuration(closeDuration)
@@ -136,26 +140,12 @@ void CircMenu::close()
 		.start();
 }
 
-void CircMenu::eventHandler(poEvent *event)
-{
-	switch(event->type){
-			
-		case PO_MOUSE_DOWN_INSIDE_EVENT:
-			isPressed = true;
-			break;
-
-		case PO_MOUSE_MOVE_EVENT:
-			break;
-			
-		case PO_MOUSE_UP_EVENT:
-			if(!isPressed) return;
-			isOpen ? close() : open();
-			isOpen = !isOpen;
-			isPressed = false;
-			break;
-	}
-}
 
 void CircMenu::messageHandler(const std::string &msg, const poDictionary& dict) 
 {
+	if(msg == poToString(buttons.size()-1)){
+		for(int i=0; i<buttons.size(); i++){
+			buttons[i]->visible = false;
+		}
+	}
 }

@@ -1,6 +1,6 @@
 dependencies: \
-  /Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/AppDelegate.mm \
-  /Potion/projects/_tests/Circular_Menu/platform/AppDelegate.h \
+  /Potion/pocodeFun/po_CircMenu/Circular_Menu/Circular_Menu/../platform/AppDelegate.mm \
+  /Potion/pocodeFun/po_CircMenu/Circular_Menu/platform/AppDelegate.h \
   /pocode/libraries/pocode/include/poApplication.h \
   /pocode/libraries/pocode/include/poWindow.h \
   /pocode/libraries/pocode/include/common.h \
@@ -680,4 +680,4 @@ dependencies: \
   /pocode/libraries/Boost/boost_1_45_0/boost/preprocessor/seq/push_back.hpp \
   /pocode/libraries/Boost/boost_1_45_0/boost/preprocessor/detail/is_nullary.hpp \
   /pocode/libraries/Boost/boost_1_45_0/boost/signals2/shared_connection_block.hpp \
-  /Potion/projects/_tests/Circular_Menu/platform/poOpenGLView.h
+  /Potion/pocodeFun/po_CircMenu/Circular_Menu/platform/poOpenGLView.h

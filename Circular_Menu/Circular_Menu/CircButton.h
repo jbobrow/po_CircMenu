@@ -18,6 +18,8 @@ public:
 	virtual void eventHandler(poEvent *event);
 	virtual void messageHandler(const std::string &msg, const poDictionary& dict=poDictionary());
 	
+	virtual void pressEvent();
+	
 	void setBaseTexture(poTexture* tex);
 	void setIconTexture(poTexture* tex);
 	void setHighlightTexture(poTexture* tex);

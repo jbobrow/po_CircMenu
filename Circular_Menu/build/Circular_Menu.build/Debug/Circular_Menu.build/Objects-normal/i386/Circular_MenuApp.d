@@ -1,6 +1,6 @@
 dependencies: \
-  /Potion/projects/_tests/Circular_Menu/Circular_Menu/Circular_MenuApp.cpp \
-  /Potion/projects/_tests/Circular_Menu/Circular_Menu/Circular_MenuApp.h \
+  /Potion/pocodeFun/po_CircMenu/Circular_Menu/Circular_Menu/Circular_MenuApp.cpp \
+  /Potion/pocodeFun/po_CircMenu/Circular_Menu/Circular_Menu/Circular_MenuApp.h \
   /pocode/libraries/pocode/include/poObject.h \
   /pocode/libraries/pocode/include/common.h \
   /pocode/libraries/pocode/include/poTween.h \
@@ -580,13 +580,13 @@ dependencies: \
   /pocode/libraries/glm/gtc/matrix_transform.hpp \
   /pocode/libraries/glm/gtc/matrix_transform.inl \
   /pocode/libraries/pocode/include/poObjectModifier.h \
-  /Potion/projects/_tests/Circular_Menu/Circular_Menu/CircMenu.h \
-  /Potion/projects/_tests/Circular_Menu/Circular_Menu/CircButton.h \
+  /Potion/pocodeFun/po_CircMenu/Circular_Menu/Circular_Menu/CircMenu.h \
+  /Potion/pocodeFun/po_CircMenu/Circular_Menu/Circular_Menu/CircButton.h \
   /pocode/libraries/pocode/include/poShapeBasics2D.h \
   /pocode/libraries/pocode/include/poShape2D.h \
   /pocode/libraries/pocode/include/poSimpleDrawing.h \
   /pocode/libraries/pocode/include/poTexture.h \
-  /Potion/projects/_tests/Circular_Menu/Circular_Menu/Common.h \
+  /Potion/pocodeFun/po_CircMenu/Circular_Menu/Circular_Menu/Common.h \
   /pocode/libraries/pocode/include/poApplication.h \
   /pocode/libraries/pocode/include/poWindow.h \
   /pocode/libraries/Boost/boost_1_45_0/boost/signals2.hpp \

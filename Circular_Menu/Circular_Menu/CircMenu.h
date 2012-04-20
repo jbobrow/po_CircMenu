@@ -20,15 +20,16 @@ enum CircMenuRange{
 	CIRC_MENU_FULL
 };
 
-class CircMenu : public poObject
+class CircMenu : public CircButton
 {
 public:
-	CircMenu();
+	CircMenu(int numButtons, int size = 130);
 	virtual ~CircMenu();
 	
 	virtual void update();
-	virtual void eventHandler(poEvent *event);
 	virtual void messageHandler(const std::string &msg, const poDictionary& dict=poDictionary());
+	
+	virtual void pressEvent();
 	
 	void addButton();
 	void setRange(int start, int end);
@@ -46,11 +47,8 @@ public:
 	
 	std::vector<CircButton *> buttons;
 	
-	CircButton	*menuButton;
-	
 	int	rangeBegin;
 	int	rangeEnd;
 	
 	bool isOpen;
-	bool isPressed;
 };

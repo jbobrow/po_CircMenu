@@ -1,6 +1,6 @@
 dependencies: \
-  /Potion/projects/_tests/Circular_Menu/Circular_Menu/CircButton.cpp \
-  /Potion/projects/_tests/Circular_Menu/Circular_Menu/CircButton.h \
+  /Potion/pocodeFun/po_CircMenu/Circular_Menu/Circular_Menu/CircButton.cpp \
+  /Potion/pocodeFun/po_CircMenu/Circular_Menu/Circular_Menu/CircButton.h \
   /pocode/libraries/pocode/include/poObject.h \
   /pocode/libraries/pocode/include/common.h \
   /pocode/libraries/pocode/include/poTween.h \
@@ -584,4 +584,4 @@ dependencies: \
   /pocode/libraries/pocode/include/poShape2D.h \
   /pocode/libraries/pocode/include/poSimpleDrawing.h \
   /pocode/libraries/pocode/include/poTexture.h \
-  /Potion/projects/_tests/Circular_Menu/Circular_Menu/Common.h
+  /Potion/pocodeFun/po_CircMenu/Circular_Menu/Circular_Menu/Common.h

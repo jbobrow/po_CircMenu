@@ -16,9 +16,9 @@ CircButton::CircButton(int size)
 	highlight->setAlignment(PO_ALIGN_CENTER_CENTER);
 	addChild(highlight);
 	
-//	addEvent(PO_MOUSE_DOWN_INSIDE_EVENT,this);
-//	addEvent(PO_MOUSE_MOVE_EVENT,this);
-//	addEvent(PO_MOUSE_UP_EVENT, this);
+	addEvent(PO_MOUSE_DOWN_INSIDE_EVENT,this);
+	addEvent(PO_MOUSE_MOVE_EVENT,this);
+	addEvent(PO_MOUSE_UP_EVENT, this);	
 }
 
 CircButton::~CircButton() 
@@ -27,6 +27,11 @@ CircButton::~CircButton()
 
 void CircButton::update() 
 {
+}
+
+void CircButton::pressEvent()
+{
+	printf("base \n");
 }
 
 void CircButton::setBaseTexture(poTexture *tex)
@@ -47,22 +52,23 @@ void CircButton::setHighlightTexture(poTexture *tex)
 
 void CircButton::eventHandler(poEvent *event)
 {
-//	switch(event->type){
-//			
-//		case PO_MOUSE_DOWN_INSIDE_EVENT:
-//			isPressed = true;
-//			icon->alpha = .5f;
-//			break;
-//			
-//		case PO_MOUSE_MOVE_EVENT:
-//			break;
-//			
-//		case PO_MOUSE_UP_EVENT:
-//			if(!isPressed) return;
-//			icon->alpha = 1.f;
-//			isPressed = false;
-//			break;
-//	}
+	switch(event->type){
+			
+		case PO_MOUSE_DOWN_INSIDE_EVENT:
+			isPressed = true;
+			icon->alpha = .5f;
+			break;
+			
+		case PO_MOUSE_MOVE_EVENT:
+			break;
+			
+		case PO_MOUSE_UP_EVENT:
+			if(!isPressed) return;
+			pressEvent();
+			icon->alpha = 1.f;
+			isPressed = false;
+			break;
+	}
 }
 
 void CircButton::messageHandler(const std::string &msg, const poDictionary& dict) 
