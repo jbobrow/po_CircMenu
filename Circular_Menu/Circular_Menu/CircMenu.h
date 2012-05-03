@@ -33,7 +33,13 @@ public:
 	
 	void addButton();
 	void setRange(int start, int end);
-	void setRange(CircMenuRange r);
+	void setRange(int r);
+	
+	void setNumButtons(int i);
+	void setDuration(float d);
+	void setDelay(float d);
+	void setBounce(float b);
+	void setAmp(float a);
 	
 	void open();
 	void close();
@@ -44,6 +50,7 @@ public:
 	float	closeDelay;
 	
 	float	amp;
+	float	bounce;
 	
 	std::vector<CircButton *> buttons;
 	

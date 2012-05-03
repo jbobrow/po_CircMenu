@@ -4,6 +4,7 @@
 
 #include "poObject.h"
 #include "CircMenu.h"
+#include "poControlPanel.h"
 
 class Circular_MenuApp : public poObject {
 public:
@@ -19,5 +20,7 @@ public:
     virtual void messageHandler(const std::string &msg, const poDictionary& dict=poDictionary());
 
 	CircMenu *menu;
+	
+	poControlPanel* control;
 };
 

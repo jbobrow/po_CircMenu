@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<item name="root" type="6">
+	<item name="amp" type="1">250.000000</item>
+	<item name="arrange" type="0">1</item>
+	<item name="bounce" type="1">3.000000</item>
+	<item name="children" type="0">5</item>
+	<item name="delay" type="1">0.100000</item>
+	<item name="duration" type="1">0.450000</item>
+</item>

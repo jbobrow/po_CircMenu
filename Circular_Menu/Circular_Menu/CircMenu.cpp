@@ -6,6 +6,7 @@ CircMenu::CircMenu(int numButtons, int size)
 :CircButton(size)
 {
 	amp			= 250.f;
+	bounce		= 3.f;
 	
 	rangeBegin	= 0;
 	rangeEnd	= 360;
@@ -55,7 +56,7 @@ void CircMenu::setRange(int start, int end)
 	rangeEnd = end;
 }
 
-void CircMenu::setRange(CircMenuRange r)
+void CircMenu::setRange(int r)
 {
 	switch(r){
 		case CIRC_MENU_QUART_TOP_LEFT:				setRange(180,270);		break;
@@ -70,6 +71,43 @@ void CircMenu::setRange(CircMenuRange r)
 	}
 }
 
+void CircMenu::setNumButtons(int i)
+{
+	if(i>buttons.size()){
+		while(i>buttons.size()){
+			addButton();
+		}
+	}
+	else if(i<buttons.size()){
+		while( i<buttons.size()){
+			removeChild(buttons[buttons.size()-1]);
+			buttons.pop_back();
+		}
+	}
+}
+
+void CircMenu::setDuration(float d)
+{
+	openDuration = d;
+	closeDuration = d-.1;
+}
+
+void CircMenu::setDelay(float d)
+{
+	openDelay = d;
+	closeDelay = d;
+}
+
+void CircMenu::setBounce(float b)
+{
+	bounce = b;
+}
+
+void CircMenu::setAmp(float a)
+{
+	amp = a;
+}
+
 void CircMenu::open()
 {
 	if( buttons.size() > 0 )
@@ -78,7 +116,8 @@ void CircMenu::open()
 			
 			buttons[i]->visible = true;
 			
-			float theta = i * PI/180.f * (rangeEnd-rangeBegin)/(float)(buttons.size()-1);
+			float range = rangeEnd-rangeBegin;
+			float theta = i * PI/180.f * range/(float)((range==360.f)?buttons.size():buttons.size()-1);
 			
 			poPoint loc = poPoint(amp * cos(rangeBegin * PI/180.f + theta), amp * sin(rangeBegin * PI/180.f + theta), 0);
 			
@@ -87,7 +126,7 @@ void CircMenu::open()
 				.setDelay(openDelay*i)
 				.setDuration(openDuration)
 				.setTweenFunction(PO_TWEEN_BACK_OUT_FUNC)
-				.setExtraValues(3.f)
+				.setExtraValues(bounce)
 				.start();
 			
 			buttons[i]->icon->rotationTween
