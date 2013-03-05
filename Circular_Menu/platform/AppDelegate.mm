@@ -32,6 +32,8 @@ std::map<NSView*,NSDictionary*> windows_fullscreen_restore;
 	// and  setup the application
 	self.currentWindow = nil;
 	setupApplication();
+	
+	[[NSApplication sharedApplication] activateIgnoringOtherApps:YES];
 }
 
 - (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender {
@@ -246,5 +248,13 @@ std::string applicationGetSupportDirectory() {
 	if (![[NSFileManager defaultManager] fileExistsAtPath:dir])
 		[[NSFileManager defaultManager] createDirectoryAtPath:dir withIntermediateDirectories:YES attributes:nil error:nil];
 	return [dir UTF8String];
+}
+
+void poShowCursor() {
+	[NSCursor unhide];
+}
+
+void poHideCursor() {
+	[NSCursor hide];
 }
 

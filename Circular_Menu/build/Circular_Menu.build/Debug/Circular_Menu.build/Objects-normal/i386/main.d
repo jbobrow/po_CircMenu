@@ -1,2 +1,2 @@
 dependencies: \
-  /Potion/projects/_tests/Circular_Menu/Circular_Menu/../platform/main.m
+  /Potion/pocodeFun/po_CircMenu/Circular_Menu/Circular_Menu/../platform/main.m
